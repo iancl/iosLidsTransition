@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C32D96B175672CC001440CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32D96A175672CC001440CC /* UIKit.framework */; };
+		3C32D96D175672CC001440CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32D96C175672CC001440CC /* Foundation.framework */; };
+		3C32D96F175672CC001440CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32D96E175672CC001440CC /* CoreGraphics.framework */; };
+		3C32D975175672CC001440CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D973175672CC001440CC /* InfoPlist.strings */; };
+		3C32D977175672CC001440CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D976175672CC001440CC /* main.m */; };
+		3C32D97B175672CC001440CC /* RQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D97A175672CC001440CC /* RQAppDelegate.m */; };
+		3C32D97D175672CC001440CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D97C175672CC001440CC /* Default.png */; };
+		3C32D97F175672CC001440CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D97E175672CC001440CC /* Default@2x.png */; };
+		3C32D981175672CC001440CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D980175672CC001440CC /* Default-568h@2x.png */; };
+		3C32D98D17567535001440CC /* RQGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D98C17567535001440CC /* RQGameController.m */; };
+		3C32D99017567549001440CC /* RQQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D98F17567549001440CC /* RQQuestionViewController.m */; };
+		3C32D99217567561001440CC /* FirstQ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D99117567561001440CC /* FirstQ.xib */; };
+		3C32D9941756756C001440CC /* SecondQ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D9931756756C001440CC /* SecondQ.xib */; };
+		3C32D99917567A7F001440CC /* RQScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D99717567A7F001440CC /* RQScoreBoardViewController.m */; };
+		3C32D99A17567A7F001440CC /* RQScoreBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D99817567A7F001440CC /* RQScoreBoardViewController.xib */; };
+		3C32D99C175686FE001440CC /* nibs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D99B175686FE001440CC /* nibs.plist */; };
+		3C32D9A117568F61001440CC /* RQHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C32D99F17568F61001440CC /* RQHomeScreenViewController.m */; };
+		3C32D9A217568F61001440CC /* RQHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C32D9A017568F61001440CC /* RQHomeScreenViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C32D967175672CC001440CC /* RandomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C32D96A175672CC001440CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C32D96C175672CC001440CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C32D96E175672CC001440CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C32D972175672CC001440CC /* RandomQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomQuiz-Info.plist"; sourceTree = "<group>"; };
+		3C32D974175672CC001440CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C32D976175672CC001440CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C32D978175672CC001440CC /* RandomQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		3C32D979175672CC001440CC /* RQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQAppDelegate.h; sourceTree = "<group>"; };
+		3C32D97A175672CC001440CC /* RQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQAppDelegate.m; sourceTree = "<group>"; };
+		3C32D97C175672CC001440CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3C32D97E175672CC001440CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3C32D980175672CC001440CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3C32D98B17567535001440CC /* RQGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQGameController.h; sourceTree = "<group>"; };
+		3C32D98C17567535001440CC /* RQGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQGameController.m; sourceTree = "<group>"; };
+		3C32D98E17567549001440CC /* RQQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQQuestionViewController.h; sourceTree = "<group>"; };
+		3C32D98F17567549001440CC /* RQQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQQuestionViewController.m; sourceTree = "<group>"; };
+		3C32D99117567561001440CC /* FirstQ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstQ.xib; sourceTree = "<group>"; };
+		3C32D9931756756C001440CC /* SecondQ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondQ.xib; sourceTree = "<group>"; };
+		3C32D99617567A7F001440CC /* RQScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQScoreBoardViewController.h; sourceTree = "<group>"; };
+		3C32D99717567A7F001440CC /* RQScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQScoreBoardViewController.m; sourceTree = "<group>"; };
+		3C32D99817567A7F001440CC /* RQScoreBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQScoreBoardViewController.xib; sourceTree = "<group>"; };
+		3C32D99B175686FE001440CC /* nibs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nibs.plist; sourceTree = "<group>"; };
+		3C32D99E17568F61001440CC /* RQHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQHomeScreenViewController.h; sourceTree = "<group>"; };
+		3C32D99F17568F61001440CC /* RQHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQHomeScreenViewController.m; sourceTree = "<group>"; };
+		3C32D9A017568F61001440CC /* RQHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RQHomeScreenViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C32D964175672CC001440CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C32D96B175672CC001440CC /* UIKit.framework in Frameworks */,
+				3C32D96D175672CC001440CC /* Foundation.framework in Frameworks */,
+				3C32D96F175672CC001440CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1203D21757AD2500C4EAA9 /* ResultsScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ResultsScreen;
+			sourceTree = "<group>";
+		};
+		3C32D95E175672CC001440CC = {
+			isa = PBXGroup;
+			children = (
+				3C32D970175672CC001440CC /* RandomQuiz */,
+				3C32D969175672CC001440CC /* Frameworks */,
+				3C32D968175672CC001440CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C32D968175672CC001440CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D967175672CC001440CC /* RandomQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C32D969175672CC001440CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D96A175672CC001440CC /* UIKit.framework */,
+				3C32D96C175672CC001440CC /* Foundation.framework */,
+				3C32D96E175672CC001440CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C32D970175672CC001440CC /* RandomQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3C1203D21757AD2500C4EAA9 /* ResultsScreen */,
+				3C32D99D17568F44001440CC /* HomeScreen */,
+				3C32D987175672F2001440CC /* Nibs */,
+				3C32D988175672FA001440CC /* Resources */,
+				3C32D99517567A61001440CC /* ScoreBoard */,
+				3C32D98A17567314001440CC /* QuestionViewController */,
+				3C32D98917567306001440CC /* NavController */,
+				3C32D979175672CC001440CC /* RQAppDelegate.h */,
+				3C32D97A175672CC001440CC /* RQAppDelegate.m */,
+				3C32D971175672CC001440CC /* Supporting Files */,
+			);
+			path = RandomQuiz;
+			sourceTree = "<group>";
+		};
+		3C32D971175672CC001440CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D972175672CC001440CC /* RandomQuiz-Info.plist */,
+				3C32D973175672CC001440CC /* InfoPlist.strings */,
+				3C32D976175672CC001440CC /* main.m */,
+				3C32D978175672CC001440CC /* RandomQuiz-Prefix.pch */,
+				3C32D97C175672CC001440CC /* Default.png */,
+				3C32D97E175672CC001440CC /* Default@2x.png */,
+				3C32D980175672CC001440CC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C32D987175672F2001440CC /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D99117567561001440CC /* FirstQ.xib */,
+				3C32D9931756756C001440CC /* SecondQ.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		3C32D988175672FA001440CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D99B175686FE001440CC /* nibs.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C32D98917567306001440CC /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D98B17567535001440CC /* RQGameController.h */,
+				3C32D98C17567535001440CC /* RQGameController.m */,
+			);
+			name = NavController;
+			sourceTree = "<group>";
+		};
+		3C32D98A17567314001440CC /* QuestionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D98E17567549001440CC /* RQQuestionViewController.h */,
+				3C32D98F17567549001440CC /* RQQuestionViewController.m */,
+			);
+			name = QuestionViewController;
+			sourceTree = "<group>";
+		};
+		3C32D99517567A61001440CC /* ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D99617567A7F001440CC /* RQScoreBoardViewController.h */,
+				3C32D99717567A7F001440CC /* RQScoreBoardViewController.m */,
+				3C32D99817567A7F001440CC /* RQScoreBoardViewController.xib */,
+			);
+			name = ScoreBoard;
+			sourceTree = "<group>";
+		};
+		3C32D99D17568F44001440CC /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C32D99E17568F61001440CC /* RQHomeScreenViewController.h */,
+				3C32D99F17568F61001440CC /* RQHomeScreenViewController.m */,
+				3C32D9A017568F61001440CC /* RQHomeScreenViewController.xib */,
+			);
+			name = HomeScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C32D966175672CC001440CC /* RandomQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C32D984175672CC001440CC /* Build configuration list for PBXNativeTarget "RandomQuiz" */;
+			buildPhases = (
+				3C32D963175672CC001440CC /* Sources */,
+				3C32D964175672CC001440CC /* Frameworks */,
+				3C32D965175672CC001440CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomQuiz;
+			productName = RandomQuiz;
+			productReference = 3C32D967175672CC001440CC /* RandomQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C32D95F175672CC001440CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Ian;
+			};
+			buildConfigurationList = 3C32D962175672CC001440CC /* Build configuration list for PBXProject "RandomQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C32D95E175672CC001440CC;
+			productRefGroup = 3C32D968175672CC001440CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C32D966175672CC001440CC /* RandomQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C32D965175672CC001440CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C32D975175672CC001440CC /* InfoPlist.strings in Resources */,
+				3C32D97D175672CC001440CC /* Default.png in Resources */,
+				3C32D97F175672CC001440CC /* Default@2x.png in Resources */,
+				3C32D981175672CC001440CC /* Default-568h@2x.png in Resources */,
+				3C32D99217567561001440CC /* FirstQ.xib in Resources */,
+				3C32D9941756756C001440CC /* SecondQ.xib in Resources */,
+				3C32D99A17567A7F001440CC /* RQScoreBoardViewController.xib in Resources */,
+				3C32D99C175686FE001440CC /* nibs.plist in Resources */,
+				3C32D9A217568F61001440CC /* RQHomeScreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C32D963175672CC001440CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C32D977175672CC001440CC /* main.m in Sources */,
+				3C32D97B175672CC001440CC /* RQAppDelegate.m in Sources */,
+				3C32D98D17567535001440CC /* RQGameController.m in Sources */,
+				3C32D99017567549001440CC /* RQQuestionViewController.m in Sources */,
+				3C32D99917567A7F001440CC /* RQScoreBoardViewController.m in Sources */,
+				3C32D9A117568F61001440CC /* RQHomeScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C32D973175672CC001440CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C32D974175672CC001440CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C32D982175672CC001440CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3C32D983175672CC001440CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C32D985175672CC001440CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomQuiz/RandomQuiz-Prefix.pch";
+				INFOPLIST_FILE = "RandomQuiz/RandomQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C32D986175672CC001440CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandomQuiz/RandomQuiz-Prefix.pch";
+				INFOPLIST_FILE = "RandomQuiz/RandomQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C32D962175672CC001440CC /* Build configuration list for PBXProject "RandomQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C32D982175672CC001440CC /* Debug */,
+				3C32D983175672CC001440CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C32D984175672CC001440CC /* Build configuration list for PBXNativeTarget "RandomQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C32D985175672CC001440CC /* Debug */,
+				3C32D986175672CC001440CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C32D95F175672CC001440CC /* Project object */;
+}
